@@ -43,10 +43,10 @@ namespace CaputillaMelonLoader
             
             var textObj = root.transform.Find("Text (TMP)");
             if (textObj != null && textObj.TryGetComponent(out TextMeshPro tmp))
-                tmp.text = "|CASUAL\n\n|KING OF THE HILL\n\n|MODDED\n\n|???";
+                tmp.text = "|CASUAL\n\n|KING OF THE HILL\n\n|RISING LAVA\n\n|MODDED";
             
             Transform casualButton = root.transform.Find("Casual");
-            Transform cube3 = root.transform.Find("Cube (3)");
+            Transform cube3 = root.transform.Find("Cube (2)");
 
             if (casualButton != null && cube3 != null)
             {
